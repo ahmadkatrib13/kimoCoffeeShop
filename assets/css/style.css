@@ -163,21 +163,22 @@ body{
     text-align: center;
     font-size: 1.5rem;
     color: var(--secondary-color);
+    margin-bottom: 8rem;
 }
 .main_form{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--secondary-color);
 }
-.container_form div{
+.container_form div:not(:last-child){
     display: flex;
     justify-content: space-between;
 }
 .container_form div:not(:last-child){
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .container_form div input, .container_form div select{
     padding: 0.5rem;
@@ -189,10 +190,34 @@ body{
     background-color: var(--secondary-color);
     border-radius: 10px;
 }
+.container_form div select{
+    appearance: none;
+}
 .container_form div input::placeholder{
     color: white;
 }
-
+.container_form div button{
+    padding: 0.5rem;
+    width: 12rem;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 20px;
+    margin-top: 5rem;
+}
+.press_to_rest{
+    display: flex;
+    justify-content: flex-end;
+}
+.coffe_cup{
+    position: relative;
+}
+.coffe_cup img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-position: 75px 130px;
+}
 
 /* Categories Page */
 
