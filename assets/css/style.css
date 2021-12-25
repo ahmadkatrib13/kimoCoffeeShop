@@ -6,7 +6,6 @@ body{
     font-size: 120%;
 }
 :root {
-    --text-color: #9C6644;
     --primary-color: rgba(221, 184, 146, 0.68);
     --secondary-color: #9C6644;
     --nav-color: #DDB892;
@@ -18,7 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 5px 80px;
-    background-color: #DDB892;
+    background-color: var(--nav-color);
 }
 
 .header__logo {
@@ -33,7 +32,7 @@ body{
     flex-direction: column;
     align-items: center;
     line-height: 1.5rem;
-    color: #9C6644;
+    color: var(--secondary-color);
     font-weight: bold;
 }
 .header__login h3{
@@ -47,7 +46,7 @@ body{
     align-items: center;
 }
 .register-login a{
-    color: #9C6644;
+    color: var(--secondary-color);
 }
 
 .header__input{
@@ -217,9 +216,8 @@ body{
 /* Categories Section */
 .body__main--contain{
     margin: 0 10rem;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
-
 .contain{
     display: flex;
     justify-content: space-between;
@@ -236,7 +234,7 @@ body{
 
 .dot{
     border-bottom: dotted 4px var(--secondary-color);
-    width: 80%;
+    width: 70%;
     height: 12px;
     margin: 0 5px 0 5px;
 }
