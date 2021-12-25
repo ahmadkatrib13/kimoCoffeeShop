@@ -6,7 +6,6 @@ body{
     font-size: 120%;
 }
 :root {
-    --text-color: #9C6644;
     --primary-color: rgba(221, 184, 146, 0.68);
     --secondary-color: #9C6644;
     --nav-color: #DDB892;
@@ -164,7 +163,7 @@ body{
 }
 .body--headingContainer{
     display: flex;
-    color: var(--text-color);
+    color: var(--secondary-color);
     justify-content: center;
 }
 .body--headingContainer h1{
@@ -186,7 +185,7 @@ body{
     justify-content: space-between;
     font-size: 20pt;
     margin: 1rem 0;
-    color: var(--text-color);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
