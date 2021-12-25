@@ -156,6 +156,14 @@ body{
 }
 
 /* form style */
+.beans_img{
+    transform: rotate(180deg);
+}
+.main_registr{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
 .main_form{
     display: flex;
     justify-content: space-around;
@@ -184,6 +192,8 @@ body{
 .container_form div input::placeholder{
     color: white;
 }
+
+
 /* Categories Page */
 
 /* Category Heading */
