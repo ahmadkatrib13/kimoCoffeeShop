@@ -1,4 +1,52 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--primary-color);
+}
+:root {
+    --text-color: #9C6644;
+    --primary-color: rgba(221, 184, 146, 0.68);
+    --secondary-color: #9C6644;
+}
+.image--heading{
+    width: 100%;
+}
+.body--headingContainer{
+    display: flex;
+    color: var(--text-color);
+    justify-content: center;
+}
+.image--headTitle{
+    width: 10%;
+    height: 10%;
+}
+.image--cold{
+    width: 12%;
+    height: 12%;
+}
+/* .dessert{
+    width: 20%;
+    height: 20%;
+} */
+.body--headingContainer h1{
+    padding-top: 1.3rem;
+    font-size: 40pt;
+}
+.body__main--contain{
+    margin: 0 10rem;
+
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20pt;
+    margin: 1rem 0;
+    color: var(--text-color);
+    font-weight: bold;
+}
+.dot{
+    border-bottom: dotted 4px var(--secondary-color);
+    width: 80%;
+    height: 12px;
+    margin: 0 5px 0 5px;
 }
