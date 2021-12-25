@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 5px 80px;
-    background-color: #DDB892;
+    background-color: var(--nav-color);
 }
 
 .header__logo {
@@ -32,8 +32,9 @@ body{
     flex-direction: column;
     align-items: center;
     line-height: 1.5rem;
-    color: #9C6644;
+    color: var(--secondary-color);
     font-weight: bold;
+    margin: 0;
 }
 .header__login h3{
     margin: 10px 0;
@@ -46,7 +47,7 @@ body{
     align-items: center;
 }
 .register-login a{
-    color: #9C6644;
+    color: var(--secondary-color);
 }
 
 .header__input{
@@ -155,6 +156,45 @@ body{
     transform: scale(1.1);
 }
 
+/* form style */
+.beans_img{
+    transform: rotate(180deg);
+}
+.main_registr{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+.main_form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.container_form div{
+    display: flex;
+    justify-content: space-between;
+}
+.container_form div:not(:last-child){
+    margin-bottom: 10px;
+}
+.container_form div input, .container_form div select{
+    padding: 0.5rem;
+    width: 30rem;
+    font-size: 1.2rem;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+.container_form div input::placeholder{
+    color: white;
+}
+
+
 /* Categories Page */
 
 /* Category Heading */
@@ -177,9 +217,8 @@ body{
 /* Categories Section */
 .body__main--contain{
     margin: 0 10rem;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
-
 .contain{
     display: flex;
     justify-content: space-between;
@@ -196,7 +235,7 @@ body{
 
 .dot{
     border-bottom: dotted 4px var(--secondary-color);
-    width: 80%;
+    width: 70%;
     height: 12px;
     margin: 0 5px 0 5px;
 }
