@@ -207,7 +207,7 @@ body{
 }
 .body--headingContainer{
     display: flex;
-    color: var(--text-color);
+    color: var(--secondary-color);
     justify-content: center;
 }
 .body--headingContainer h1{
@@ -228,7 +228,7 @@ body{
     justify-content: space-between;
     font-size: 20pt;
     margin: 1rem 0;
-    color: var(--text-color);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
