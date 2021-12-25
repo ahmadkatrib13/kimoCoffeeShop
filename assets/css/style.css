@@ -220,22 +220,27 @@ width: 50%;
     font-weight: 600;
     color: var(--secondary-color);
 }
-.container_form div:not(:last-child){
+.container_form div{
     display: flex;
     justify-content: space-between;
 }
-.container_form div:not(:last-child){
-    margin-bottom: 15px;
-}
 .container_form div input, .container_form div select{
-    padding: 0.5rem;
-    width: 30rem;
+    margin-bottom: 15px;
+    padding: 0.8rem;
+    width: 28rem;
     font-size: 1.2rem;
+    font-weight: 600;
     outline: 0;
     border: none;
     color: white;
     background-color: var(--secondary-color);
     border-radius: 10px;
+}
+.container_form div label{
+    margin-right: 10px;
+}
+#country, #gender{
+    width: 29.5rem;
 }
 .container_form div select{
     appearance: none;
@@ -243,18 +248,20 @@ width: 50%;
 .container_form div input::placeholder{
     color: white;
 }
-.container_form div button{
+.main_form div div button{
     padding: 0.5rem;
     width: 12rem;
     border-radius: 10px;
     background-color: var(--secondary-color);
     color: white;
     font-size: 20px;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
-.press_to_rest{
+.main_button{
     display: flex;
-    justify-content: flex-end;
+}
+.main_button button{
+    margin-right: 80px;
 }
 .coffe_cup{
     position: relative;
