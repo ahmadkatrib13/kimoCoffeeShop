@@ -4,6 +4,7 @@ body{
     background-color: var(--primary-color);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 120%;
+    color:#9c6644 ;
 }
 :root {
     --text-color: #9C6644;
@@ -11,6 +12,8 @@ body{
     --secondary-color: #9C6644;
     --nav-color: #DDB892;
 }
+/* Home*/
+
 /* Header Main */
 
 .header__main {
@@ -93,7 +96,7 @@ body{
 }   
 .navbar__link{
     text-decoration: none;
-    color: black;   
+    color: black;      
     height: 100%;
     width: 70%;
     display: block;
@@ -155,6 +158,47 @@ body{
 .searchbar__button:hover{
     transform: scale(1.1);
 }
+
+/* about us */
+
+.main__aboutus{
+
+max-width: 1200px;
+margin: auto;
+padding: 30px 15px ;
+}
+.aboutus__title{
+    font-size: 2.4rem;
+    border-bottom: 2px solid #7f5539;
+    padding-bottom: 15px;
+    display: block;
+    width: fit-content;
+}
+.aboutus__wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.aboutus__text{
+margin:0 ;
+margin-bottom:auto ;
+text-align: justify;
+line-height: 1.8rem;
+width: 50%;
+}
+.aboutus__img{
+    width: 45%;
+}
+
+
+
+
+
+
+
 
 /* Categories Page */
 
