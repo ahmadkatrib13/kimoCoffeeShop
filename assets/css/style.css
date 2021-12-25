@@ -178,9 +178,8 @@ body{
 /* Categories Section */
 .body__main--contain{
     margin: 0 10rem;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
-
 .contain{
     display: flex;
     justify-content: space-between;
@@ -197,7 +196,7 @@ body{
 
 .dot{
     border-bottom: dotted 4px var(--secondary-color);
-    width: 80%;
+    width: 70%;
     height: 12px;
     margin: 0 5px 0 5px;
 }
