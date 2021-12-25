@@ -46,7 +46,7 @@ body{
 .register-login {
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 100%;
     align-items: center;
 }
 .register-login a{
@@ -62,8 +62,12 @@ body{
     color: #E6CCB2;
     font-weight: bold;
     line-height: 1.5rem;
-    width: 110px;
+    width: 120px;
     margin: 5px;
+}
+
+.login__button{
+    width: 90px;
 }
 
 
