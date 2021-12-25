@@ -34,6 +34,7 @@ body{
     line-height: 1.5rem;
     color: var(--secondary-color);
     font-weight: bold;
+    margin: 0;
 }
 .header__login h3{
     margin: 10px 0;
