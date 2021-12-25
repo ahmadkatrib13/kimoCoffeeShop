@@ -8,46 +8,44 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div>
-        <header>
-            <div class="header__main">
-                <div class="header__logo">
-                    <img src="images/home/logo1.png" width="100px" class="logo" alt="logo">
-                    <img src="images/home/coffe-beans1.png" width="250px" class="coffee-beans" alt="coffe-beans">
-                </div>
-                <div class="header__login">
-                    <form>
-                        <h3>Login / Register</h3>
-                        <label for="username">Username
-                            <input class="header__input" type="text" name="username">
-                        </label>
-    
-                        <label for="password">Password
-                            <input class="header__input" type="password" name="password">
-                        </label>
-    
-                        <div class="register-login">
-                            <a href="forms.html">Register ?</a>
-                            <button class="header__input" type="submit">Login</button>
-                        </div>
-                    </form>
-                </div>
+    <header>
+        <div class="header__main">
+            <div class="header__logo">
+                <img src="images/home/logo1.png" width="100px" class="logo" alt="logo">
+                <img src="images/home/coffe-beans1.png" width="250px" class="coffee-beans" alt="coffe-beans">
             </div>
-    
-            <nav class="header__navbar">
-                <ul class="navbar__list">
-                    <li class="navbar__item"><a class="navbar__link" href="#">Home</a></li>
-                    <li class="navbar__item"><a class="navbar__link" href="#"><span id="categories">Products</span></a></li>
-                    <li class="navbar__item"><a class="navbar__link" href="#">Contact us</a></li>
-                </ul>
-                <form class="header__searchbar" action="">
-                    <label for="searchInput">Search</label>
-                    <input type="text" class="searchbar__input" name="searchInput" id="searchInput" />
-                    <img class="searchbar__button" onclick="" src="./images/home/search.png" alt="" draggable="false">
+            <div class="header__login">
+                <form>
+                    <h3>Login / Register</h3>
+                    <label for="username">Username
+                        <input class="header__input" type="text" name="username">
+                    </label>
+
+                    <label for="password">Password
+                        <input class="header__input" type="password" name="password">
+                    </label>
+
+                    <div class="register-login">
+                        <a href="forms.html">Register ?</a>
+                        <button class="header__input login__button" type="submit">Login</button>
+                    </div>
                 </form>
-            </nav>
-        </header>
-    </div>
+            </div>
+        </div>
+
+        <nav class="header__navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link" href="index.html">Home</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="categories.html"><span id="categories">Products</span></a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Contact us</a></li>
+            </ul>
+            <form class="header__searchbar" action="">
+                <label for="searchInput">Search</label>
+                <input type="text" class="searchbar__input" name="searchInput" id="searchInput" />
+                <img class="searchbar__button" onclick="" src="./images/home/search.png" alt="" draggable="false">
+            </form>
+        </nav>
+    </header>
     <div class="body__main--Heading">
         <img class="image--heading" src="./images/hot drinks/Picture1.png" alt="Hot Drinks Heading">
         <div class="body--headingContainer">
@@ -90,9 +88,9 @@
 
 
     <div class="body__main--Heading">
-        <img class="image--heading" src="./images/cold drink/Picture2.png" alt="Hot Drinks Heading">
+        <img class="image--heading" src="./images/cold drink/Picture2.png" alt="Cold Drinks Heading">
         <div class="body--headingContainer">
-            <img class="image--cold" src="./images/cold drink/cold-drink.png" alt="Hot Coffee drink">
+            <img class="image--cold" src="./images/cold drink/cold-drink.png" alt="Cold drink">
             <h1> Cold Drinks</h1>
         </div>
     </div>
@@ -132,9 +130,9 @@
 
 
     <div class="body__main--Heading">
-        <img class="image--heading" src="./images/desert/Picture3.png" alt="Hot Drinks Heading">
+        <img class="image--heading" src="./images/desert/Picture3.png" alt="Cupcakes">
         <div class="body--headingContainer">
-            <img class="dessert" src="./images/desert/brownies.png" alt="Hot Coffee drink">
+            <img class="dessert" src="./images/desert/brownies.png" alt="Brownies Dessert">
             <h1>Desserts</h1>
         </div>
     </div>

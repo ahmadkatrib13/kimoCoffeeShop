@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +12,23 @@
     <header>
         <div class="header__main">
             <div class="header__logo">
-                <img src="images/home/logo1.png" class="logo" alt="logo">
-                <img src="images/home/coffe-beans1.png" class="coffee-beans" alt="coffe-beans">
+                <img src="images/home/logo1.png" width="100px" class="logo" alt="logo">
+                <img src="images/home/coffe-beans1.png" width="250px" class="coffee-beans" alt="coffe-beans">
             </div>
             <div class="header__login">
                 <form>
                     <h3>Login / Register</h3>
                     <label for="username">Username
-                        <input type="text" name="username">
+                        <input class="header__input" type="text" name="username">
                     </label>
 
                     <label for="password">Password
-                        <input type="password" name="password">
+                        <input class="header__input" type="password" name="password">
                     </label>
 
                     <div class="register-login">
                         <a href="forms.html">Register ?</a>
-                        <button type="submit">Login</button>
+                        <button class="header__input login__button" type="submit">Login</button>
                     </div>
                 </form>
             </div>
@@ -34,8 +36,8 @@
 
         <nav class="header__navbar">
             <ul class="navbar__list">
-                <li class="navbar__item"><a class="navbar__link" href="#">Home</a></li>
-                <li class="navbar__item"><a class="navbar__link" href="#"><span id="categories">Products</span></a></li>
+                <li class="navbar__item"><a class="navbar__link" href="index.html">Home</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="categories.html"><span id="categories">Products</span></a></li>
                 <li class="navbar__item"><a class="navbar__link" href="#">Contact us</a></li>
             </ul>
             <form class="header__searchbar" action="">
@@ -46,7 +48,7 @@
         </nav>
     </header>
 
-    <div class="beans_img"><img src="images/regsitr/coffee.png" alt="coffe-beans" width="100%"></div>
+<img class="beans_img" src="images/regsitr/coffee.png" alt="coffe-beans" width="100%">
 
     <div class="main_registr">
         <h2>R e g i s t r a t i o n</h2>
