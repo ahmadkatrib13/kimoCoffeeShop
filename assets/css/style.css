@@ -201,6 +201,59 @@ body{
 .card__product:hover img {
     transform: rotate(-15deg);
 }
+/* slider */
+
+.main__slider{
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.slider__list{
+    display: flex;
+    margin: auto;
+    padding-left: 0;
+    list-style-type: none;
+    width: 500%;
+}
+.slider__item{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    overflow:hidden ;
+}
+.slider__img{
+    width: 100%;
+}
+.next,.previous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top:calc(50% - 30px);
+    padding: 15px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(221, 184, 146, 0.38), rgba(221, 184, 146, 0.38)), rgba(221, 184, 146, 0.38);
+}
+
+.next>img,.previous>img{
+    height: 90%;
+}
+
+.previous{
+    left:1.2rem;
+}
+.next{
+    right:1.2rem;
+}
+
+
+
+
+
 
 /* about us */
 
@@ -237,6 +290,49 @@ body{
 
 .aboutus__img{
     width: 45%;
+}
+
+/* Location and contact us */
+
+.main__location-contactus{
+    display: flex;
+}
+
+.main__location-contactus > div{
+    width: 50%;
+}
+
+.contact-us h1.section__title {
+    margin-left: 6rem;
+}
+
+.contact-us ul {
+    line-height: 6rem;
+    list-style: none;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+}
+
+.contact-us a{
+    text-decoration: none;
+    color: #9c6644;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us a:hover{
+    text-decoration: underline;
+}
+
+.contact-us a svg {
+    color: #E6CCB2;
+    background-color: #7f5539;
+    border-radius: 50%;
+    padding: 1rem;
+    box-sizing: content-box;
+    min-width: 40px;
+    margin-right: 1rem;
 }
 
 /* form style */
@@ -373,14 +469,9 @@ body{
 .main--describeContainer{
     margin:0 2rem 2rem 2rem;
 }
-.image--mocha{
-    width: 600px;
-    height: 350px;
-    border-radius: 10px;
-}
 .main--containerDescribe{
     display: flex;
-    margin: 8rem 2rem 0 2rem;
+    margin: 4rem 2rem 0 2rem;
     padding: 0;
     align-items: center;
 }
@@ -388,9 +479,15 @@ body{
     width: 50%;
     margin: 10px;
 }
-.main--partition-one{
-    border-left: 3px solid var(--secondary-color);
+.main--border{
+    border-right: 3px solid var(--secondary-color);
 }
+.partition-img{
+    text-align: center;
+}
+/* .main--partition-one{
+    border-left: 3px solid var(--secondary-color);
+} */
 .main--describeText{
     color: var(--secondary-color);
     font-weight: bold;
@@ -400,34 +497,36 @@ body{
 }
 .ingredients_li{
     border-bottom: 2px solid var(--secondary-color);
-    width: 200px;
+}
+.ingredients_li p{
+    font-size: 30px;
+    margin-top: 0;
 }
 
 .second--partition{
     display: flex;
     align-items: center;
 }
-.par p{
+.main--pageDescribe p{
     text-align: center;
     margin: 0 10px;
     padding:20px;
 }
-.par{
+.main--pageDescribe{
     margin: 2rem auto;
     max-width: 400px;
     background-color: var(--secondary-color);
     color: var(--nav-color);
-    /* box-sizing: 2%; */
     border-radius: 30px;
     font-size: 30px;
     font-weight: 600;
     font-style: italic;
 }
-.buttonPage{
+.button--Page{
     display: flex;
     justify-content: space-between;
 }
-.buttonPage a{
+.button--Page a{
     text-decoration: none;
     background-color: var(--secondary-color);
     box-shadow: 0 5px #666;
@@ -441,16 +540,32 @@ body{
     align-items: center;
     justify-content: center;
 }
-.buttonPage input{
+.button--Page input{
     background: none;
     color: inherit;
     border: none;
     font-size: 20pt;
 }
-.buttonPage a:hover{
+.button--Page a:hover{
     color: var(--dark-color);
     background-color: var(--nav-color);
-    
+}
+/* Image Product Styling */
+.image--Dispaly{
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+}
+.image--ice-coffee{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+.image--icedLatte{
+    width: 250px;
+    height: 275px;
+    border-radius: 10px;
+    margin-left: 15px;
 }
 
 @media (max-width:992px) {
