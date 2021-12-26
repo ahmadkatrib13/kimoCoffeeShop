@@ -203,7 +203,7 @@ body{
 
 /* about us */
 
-.main__aboutus, .main__latest-products{
+.main__aboutus, .main__latest-products,.main__location-contactus{
     max-width: 1200px;
     margin: auto;
     padding: 40px 15px;
