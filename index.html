@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/fontawesome/all.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -38,8 +39,9 @@
         <nav class="header__navbar">
             <ul class="navbar__list">
                 <li class="navbar__item"><a class="navbar__link" href="index.html">Home</a></li>
-                <li class="navbar__item"><a class="navbar__link" href="categories.html"><span id="categories">Products</span></a></li>
-                <li class="navbar__item"><a class="navbar__link" href="#">Contact us</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="categories.html"><span
+                            id="categories">Products</span></a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#contact-us">Contact us</a></li>
             </ul>
             <form class="header__searchbar" action="">
                 <label for="searchInput">Search</label>
@@ -49,21 +51,93 @@
         </nav>
     </header>
     <main>
+        <section class="main__latest-products">
+            <h1 class="section__title">Latest Products</h1>
+            <div class="latest-products">
+                <a href="categories.html">
+                    <div class="card__product">
+                        <img src="images/home/caffe-latte.png" width="100px" alt="caffe-latte">
+                        <h3>Caffè Lattè</h3>
+                    </div>
+                </a>
+                <a href="categories.html">
+                    <div class="card__product">
+                        <img src="images/home/ristretto.png" width="100px" alt="ristretto">
+                        <h3>Ristretto</h3>
+                    </div>
+                </a>
+                <a href="categories.html">
+                    <div class="card__product">
+                        <img src="images/home/cappuccino.png" width="100px" alt="cappuccino">
+                        <h3>Cappuccino</h3>
+                    </div>
+                </a>
+                <a href="categories.html">
+                    <div class="card__product">
+                        <img src="images/home/coffee-pot.png" width="100px" alt="coffee-pot">
+                        <h3>coffee Pot</h3>
+                    </div>
+                </a>
+                <a href="categories.html">
+                    <div class="card__product">
+                        <img src="images/home/take-away.png" width="100px" alt="take-away">
+                        <h3>Take Away</h3>
+                    </div>
+                </a>
+                <a href="categories.html">
+                    <div class="card__product">
+                        <img src="images/home/espresso.png" width="100px" alt="espresso">
+                        <h3>Espresso</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
         <section class="main__aboutus">
-            
+
             <div class="aboutus__wrapper">
                 <div class="aboutus__text">
-                    <h1 class="aboutus__title">About Us</h1>
+                    <h1 class="section__title">About Us</h1>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                     and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                     leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
                     with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
-                    <img class="aboutus__img" src="./images/home/aboutus.png" alt="">
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum
                 </div>
+                <img class="aboutus__img" src="./images/home/aboutus.png" alt="coffee shop">
+            </div>
         </section>
-
+        <section class="main__location-contactus">
+            <div class="location">
+                <h1 class="section__title">location</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.1383915776555!2d35.831421968142386!3d34.42323967934343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1521f6b5c18a62b3%3A0xdd37e6991fc86ad1!2sAUL-Tripoli!5e0!3m2!1sen!2slb!4v1640517422364!5m2!1sen!2slb"
+                    width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-us" id="contact-us">
+                <h1 class="section__title">Contact Us</h1>
+                <ul>
+                    <li>
+                        <a href="tel:+96103293594">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+ 961 03 293594</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/home/insta.png" alt="phone" width="50px">
+                            <span>kimo_shop</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/home/fb.png" alt="phone" width="50px">
+                            <span>kimo-shop</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <script src="./assets/js/main.js"></script>
