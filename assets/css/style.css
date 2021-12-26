@@ -377,7 +377,7 @@ body{
 }
 .image--ice-coffee{
     width: 300px;
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
 }
 .iced--latte{
@@ -418,7 +418,10 @@ body{
 }
 .ingredients_li{
     border-bottom: 2px solid var(--secondary-color);
-    width: 200px;
+}
+.ingredients_li p{
+    font-size: 35px;
+    margin-top: 0;
 }
 /* .main--describeText li::before{
     list-style-image:  url('');
