@@ -302,14 +302,18 @@ body{
     width: 50%;
 }
 
+iframe{
+    border-radius: 10px;
+}
+
 .contact-us h1.section__title {
-    margin-left: 6rem;
+    margin-left: 15%;
 }
 
 .contact-us ul {
     line-height: 6rem;
     list-style: none;
-    margin-left: 3rem;
+    margin-left: 5%;
     font-size: 2.5rem;
 }
 
@@ -542,12 +546,29 @@ body{
     font-weight: 600;
     font-style: italic;
 }
+
+
+/* Media query */
+
 @media (max-width:992px) {
     .latest-products a{
         width: 50%;
     }
     .card__product {
         font-size: 1.5rem;
+    }
+    .main__location-contactus > div {
+        width: 100%;
+    }
+    .main__location-contactus {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us h1.section__title {
+        margin-left: 0;
+    }
+    .contact-us ul {
+        margin-left: 0;
     }
 }
 
