@@ -172,19 +172,34 @@ body{
     justify-content: space-between;
 }
 
+.latest-products a{
+    width: 30%;
+    text-decoration: none;
+}
+
 .card__product {
     display: flex;
-    width: 30%;
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--secondary-color);
     color: #ede0d4;
     border-radius: 50px;
     line-height: 7rem;
-    margin: 10px 0;
-    font-size: 2rem;
+    margin: 10px;
+    font-size: 1.8rem;
 }
 
+.card__product img{
+    transition: all .5s ease-in-out;
+}
+
+.card__product:hover {
+    background-color: #7f5539;
+}
+
+.card__product:hover img {
+    transform: rotate(-15deg);
+}
 
 /* about us */
 
@@ -310,3 +325,17 @@ body{
 
 
 
+@media (max-width:992px) {
+    .latest-products a{
+        width: 50%;
+    }
+    .card__product {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:575px) {
+    .latest-products a{
+        width: 100%;
+    }
+}
