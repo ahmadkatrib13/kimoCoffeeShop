@@ -36,9 +36,15 @@
         <nav class="header__navbar">
             <ul class="navbar__list">
                 <li class="navbar__item"><a class="navbar__link" href="index.html">Home</a></li>
-                <li class="navbar__item"><a class="navbar__link" href="categories.html"><span
-                            id="categories">Products</span></a></li>
-                <li class="navbar__item"><a class="navbar__link" href="#contact-us">Contact us</a></li>
+                <li class="navbar__item"><div class="navbar__link " href="categories.html" ><span id="categories">Products</span></div>
+                <div class="categories__list">
+                    <a class="secondary__link" href="categories.html">All</a>
+                    <a class="secondary__link" href="product_coldDrink.html">Cold Drinks</a>
+                    <a class="secondary__link" href="product_dessert.html">Dessert</a>
+                    <a class="secondary__link" href="product_hotDrink.html">Hot Drinks</a>
+                </div>
+                </li>
+                <li class="navbar__item"><a class="navbar__link" href="index.html#contact-us">Contact us</a></li>
             </ul>
             <form class="header__searchbar" action="">
                 <label for="searchInput">Search</label>
@@ -80,5 +86,9 @@
             <p>Ice Latte - Price: 9$</p>
         </div>
     </div>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+
+    <script src="assets/js/navbar.js"></script>
+
 </body>
 </html>

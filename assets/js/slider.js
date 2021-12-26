@@ -37,7 +37,7 @@ $(function () {
         clearInterval(interval);
     }
     //pause slider
-    $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+    $slider.on('mouseover', stopSlider).on('mouseleave', startSlider);
 
     //next button
     $next.click(function () {
