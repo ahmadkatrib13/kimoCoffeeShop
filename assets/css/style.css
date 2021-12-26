@@ -370,6 +370,9 @@ body{
 }
 
 /* Product Description Page */
+.main--describeContainer{
+    margin:0 2rem 2rem 2rem;
+}
 .image--mocha{
     width: 600px;
     height: 350px;
@@ -388,13 +391,6 @@ body{
 .main--partition-one{
     border-left: 3px solid var(--secondary-color);
 }
-/* .main--categoryType{
-    color: var(--secondary-color);
-    width: 70%;
-    height: 20%;
-    padding:15px 10px;
-    font-size: 30pt;
-} */
 .main--describeText{
     color: var(--secondary-color);
     font-weight: bold;
@@ -406,9 +402,7 @@ body{
     border-bottom: 2px solid var(--secondary-color);
     width: 200px;
 }
-/* .main--describeText li::before{
-    list-style-image:  url('');
-}  */
+
 .second--partition{
     display: flex;
     align-items: center;
@@ -429,6 +423,36 @@ body{
     font-weight: 600;
     font-style: italic;
 }
+.buttonPage{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonPage a{
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: var(--nav-color);
+    border: 3px solid var(--dark-color);
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonPage input{
+    background: none;
+    color: inherit;
+    border: none;
+    font-size: 20pt;
+}
+.buttonPage a:hover{
+    color: var(--dark-color);
+    background-color: var(--nav-color);
+    
+}
+
 @media (max-width:992px) {
     .latest-products a{
         width: 50%;
