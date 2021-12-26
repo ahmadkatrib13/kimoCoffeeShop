@@ -389,6 +389,7 @@ body{
 }
 .main--partition-one{
     border-left: 3px solid var(--secondary-color);
+    height: 294px;
     border-right: 0;
 }
 .main--categoryType{
