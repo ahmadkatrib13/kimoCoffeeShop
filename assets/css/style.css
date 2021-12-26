@@ -413,9 +413,12 @@ body{
     width: 200px;
     margin: 0 10px;
     padding:0 20px;
+}
+.par{
     background-color: var(--secondary-color);
     color: var(--nav-color);
     box-sizing: 2%;
+    border-radius: 30px;
 }
 @media (max-width:992px) {
     .latest-products a{
