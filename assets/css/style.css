@@ -468,6 +468,8 @@ iframe{
 .body__main--contain{
     margin: 0 10rem;
     padding-bottom: 50px;
+    text-align: center;
+    font-size: 20pt;
 }
 .body__main--categoryInfo{
     display: flex;
