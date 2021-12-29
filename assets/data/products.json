@@ -1,0 +1,40 @@
+{
+
+    "cold":[
+        {
+            "id":1,
+            "name":"",
+            "desciption":"",
+            "price":8,
+            "main_imges":"",
+            "ingredient_image":"",
+            "ingredients":[],
+            "img_gallery":[]
+        }
+    ],
+    "dessert":[
+        {
+            "id":1,
+            "name":"",
+            "desciption":"",
+            "price":8,
+            "main_imges":"",
+            "ingredient_image":"",
+            "ingredients":[],
+            "img_gallery":[]
+        }
+    ],
+    "hotdrinks":[
+        {
+            "id":1,
+            "name":"",
+            "desciption":"",
+            "price":8,
+            "main_imges":"",
+            "ingredient_image":"",
+            "ingredients":[],
+            "img_gallery":[]
+        }
+    ]
+    
+}
