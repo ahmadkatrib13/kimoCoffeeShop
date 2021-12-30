@@ -4,7 +4,7 @@ $(function () {
 
         let render = (key, value) => {
             $(`<ol class="body__main--categoryInfo">
-        <li><a href="./products/${key}.html">${value.name}</a></li>
+        <li><a href="./products/products_${value.categorie}.html">${value.name}</a></li>
         <div class="main--dottedLine"></div>
         <li>${value.price}$</li>
     </ol>`).appendTo(`.${value.categorie}`);
