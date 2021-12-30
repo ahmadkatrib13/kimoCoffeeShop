@@ -1,10 +1,10 @@
 
 $(function () {
-    $.getJSON("assets/data/products.json", function (data) {
+    $.getJSON("../assets/data/products.json", function (data) {
 
         let render = (key, value) => {
             $(`<ol class="body__main--categoryInfo">
-        <li><a href="./products/products_${value.categorie}.html">${value.name}</a></li>
+        <li><a href="../products/products_${value.categorie}.html">${value.name}</a></li>
         <div class="main--dottedLine"></div>
         <li>${value.price}$</li>
     </ol>`).appendTo(`.${value.categorie}`);

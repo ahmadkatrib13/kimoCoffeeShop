@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - KIMO Coffee Shop</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__main">
+            <div class="header__logo">
+                <a href="../index.html"><img src="../images/home/logo1.png" width="100px" class="logo" alt="logo"></a>
+                <a href="../index.html"><img src="../images/home/coffe-beans1.png" width="250px" class="coffee-beans" alt="coffe-beans"></a>
+            </div>
+            <div class="header__login">
+                <form>
+                    <h3>Login / Register</h3>
+                    <label for="username">Username
+                        <input class="header__input" type="text" name="username">
+                    </label>
+    
+                    <label for="password">Password
+                        <input class="header__input" type="password" name="password">
+                    </label>
+    
+                    <div class="register-login">
+                        <a href="../forms.html">Register ?</a>
+                        <button class="header__input login__button" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <nav class="header__navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link" href="../index.html">Home</a></li>
+                <li class="navbar__item"><div class="navbar__link " href="categories.html" ><span id="categories">Products</span></div>
+                <div class="categories__list">
+                    <a class="secondary__link" href="categories.html">All</a>
+                    <a class="secondary__link" href="coldDrinks.html">Cold Drinks</a>
+                    <a class="secondary__link" href="desserts.html">Dessert</a>
+                    <a class="secondary__link" href="hotDrinks.html">Hot Drinks</a>
+                </div>
+                </li>
+                <li class="navbar__item"><a class="navbar__link" href="../index.html#contact-us">Contact us</a></li>
+            </ul>
+            <form class="header__searchbar" action="">
+                <label for="searchInput">Search</label>
+                <input type="text" class="searchbar__input" name="searchInput" id="searchInput" />
+                <img class="searchbar__button" id="searchButton" onclick="" src="../images/home/search.png" alt="" draggable="false">
+            </form>
+        </nav>
+    </header>
+
+    <div class="body__main--Heading">
+        <img class="image--heading" src="../images/cold drink/Picture2.png" alt="Cold Drinks Heading">
+        <div class="body--headingContainer">
+            <img class="image--cold" src="../images/cold drink/cold-drink.png" alt="Cold drink">
+            <h1> Cold Drinks</h1>
+        </div>
+    </div>
+
+    <div class="body__main--contain coldDrinks">
+        <!-- <ol class="body__main--categoryInfo">
+            <li><a href="../products/products_coldDrinks.html"> Iced Latte</a></li>
+            <div class="main--dottedLine"></div>
+            <li>9$</li>
+        </ol>
+        <ol class="body__main--categoryInfo">
+            <li><a href="#">Ristrello</a></li>
+            <div class="main--dottedLine"></div>
+            <li>4$</li>
+        </ol>
+        <ol class="body__main--categoryInfo">
+            <li><a href="#">Ice Tea</a></li>
+            <div class="main--dottedLine"></div>
+            <li>6$</li>
+        </ol>
+        <ol class="body__main--categoryInfo">
+            <li><a href="#">Iced Chocolate</a></li>
+            <div class="main--dottedLine"></div>
+            <li>6$</li>
+        </ol>
+        <ol class="body__main--categoryInfo">
+            <li><a href="#">Milk Shake</a></li>
+            <div class="main--dottedLine"></div>
+            <li>6$</li>
+        </ol>
+        <ol class="body__main--categoryInfo">
+            <li><a href="#">Ice Coffee</a></li>
+            <div class="main--dottedLine"></div>
+            <li>5$</li>
+        </ol> -->
+    </div>
+
+    <script src="../assets/js/jquery-3.6.0.js"></script>
+    <script src="../assets/js/coldDrinks.js"></script>
+    <script src="../assets/js/navbar.js"></script>
+
+</body>
+</html>
