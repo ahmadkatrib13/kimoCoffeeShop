@@ -420,7 +420,7 @@ iframe{
 .container_form div input::placeholder{
     color: white;
 }
-.main_form div div button{
+form div div button{
     padding: 0.5rem;
     width: 12rem;
     border-radius: 10px;
@@ -431,6 +431,7 @@ iframe{
 }
 .main_button{
     display: flex;
+    justify-content: center;
 }
 .main_button button{
     margin-right: 80px;
